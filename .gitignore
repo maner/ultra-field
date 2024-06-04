@@ -1,0 +1,6 @@
+.hgignore
+.vscode
+bin
+mir
+internal-mir
+output*

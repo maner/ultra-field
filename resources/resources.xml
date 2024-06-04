@@ -1,0 +1,71 @@
+<resources>
+    <string id="AppName">UltraField</string>
+    <string id="AppName_dev">UltraField dev</string>
+    <bitmap id="LauncherIcon" filename="drawables/launcher_icon.png" />
+
+	<string id="maxSpeedTitle">Max expected instant speed</string>
+	<string id="maxSpeedPrompt">Estimated distance discards all intervals having instant speed greater than this value</string>
+	<string id="maxSpeedError">Value must be numeric</string>
+	
+	<string id="splitsTitle">Or Insert CheckPoints</string>
+	<string id="splitsPrompt">(only used if race == Custom)  Check points definition, in format: distance1,name1,info1;distance2,name2,info2(;...)  Example: 21.1,Half marathon,water;42.195,Marathon,Food-Barrier 4:00;50.0,Finish,Barrier 6:00. Use web site to easily define checkpoints</string>
+	
+	<string id="CPThresholdTitle">CheckPoint approaching threshold</string>
+	<string id="CPThresholdPrompt">Distance (in km) before checkpoint that causes "approaching checkpoint" mode activation. Default: 0.5 ( 500 meters before checkpoint)</string>
+	<string id="CPThresholdError">Value must be numeric</string>
+
+	<string id="debugTitle">Debug</string>
+	<string id="debugPrompt">For test</string>
+	<string id="lastDistTitle">last dist</string>
+	
+	<string id="raceTitle">Select a Race</string>
+	<string id="racePrompt">Select a race (checkPoints field ignored)t</string>
+	
+	<string id="configTitle">Config (dY,fTxt,fN,fLap)</string>
+	
+	<string id="noRace">Custom (Use checkpoints field)</string>
+
+    <properties>
+	    <property id="maxSpeed" type="number">99</property>
+	    <property id="debug" type="boolean">false</property>
+	    <property id="splits" type="string"></property>
+	    <property id="lastDist" type="number">0</property>
+		<property id="lastIndex" type="number">0</property>
+		<property id="deltaTrigger" type="float">0.5</property>
+		<property id="race" type="number">1</property>
+	</properties>
+    
+    <settings>
+    
+    	<setting propertyKey="@Properties.race" title="@Strings.raceTitle" prompt="@Strings.racePrompt" 
+	    helpUrl="http://www.vertikalpuntamartin.it/ultraField/#/help/races">
+	    	<settingConfig type="list" required="false" >
+	    	 	<listEntry value="0">@Strings.noRace</listEntry>
+				<listEntry value="1">2023-09-01 - UTMB - Chamonix</listEntry>
+				<listEntry value="2">2023-08-28 - UTMB TDS - Courmayeur</listEntry>
+				<listEntry value="3">2023-09-01 - UTMB CCC - Courmayeur</listEntry>
+				<listEntry value="4">2023-08-28 - UTMB MCC - Martigny</listEntry>
+				<listEntry value="5">2023-08-31 - UTMB OCC  - Orsières</listEntry>
+				<listEntry value="6">2023-09-01 - UTMB (all points) - Chamonix</listEntry>
+				
+            </settingConfig>
+	    </setting>
+	        
+	    <setting propertyKey="@Properties.splits" title="@Strings.splitsTitle" prompt="@Strings.splitsPrompt"
+	     helpUrl="http://www.vertikalpuntamartin.it/ultraField/#/help/checkPoints">
+	    	<settingConfig type="alphaNumeric" required="false" />
+	    </setting>
+	    
+	    <setting propertyKey="@Properties.maxSpeed" title="@Strings.maxSpeedTitle" prompt="@Strings.maxSpeedPrompt"
+	    	helpUrl="http://www.vertikalpuntamartin.it/ultraField/#/help/maxSpeed">
+	        <settingConfig type="numeric" errorMessage="@Strings.maxSpeedError" />
+	    </setting>
+	    <setting propertyKey="@Properties.deltaTrigger" title="@Strings.CPThresholdTitle" prompt="@Strings.CPThresholdPrompt" 
+	    helpUrl="http://www.vertikalpuntamartin.it/ultraField/#/help/deltaTrigger">
+	    	<settingConfig type="numeric" required="false" />
+	    </setting>
+
+
+	</settings>
+    
+</resources>

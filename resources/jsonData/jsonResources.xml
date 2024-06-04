@@ -1,0 +1,23 @@
+<jsonDataResources>
+
+<jsonData id="race1">
+    "V02;UTMB;2023-09-01;Chamonix|802;Les Houches;1011;101;140;dbt|2169;Saint-Gervais;813;819;1003;fbat!10:00|3187;Les Contamines;1147;551;222;fbat!12:00|4015;La Balme;1705;558;12;fat!02:00|5075;Les Chapieux;1553;797;934;Fbzat!05:15|6980;Lac Combal;1967;1267;858;fat!10:00|7703;Checrouit ;1954;451;454;dt|8137;Courmayeur;1192;0;766;Fsbzat!01:15|8625;Refuge Bertone;1967;784;22;dt|9880;Arnouvaz;1787;433;598;fbat!06:15|11343;La Fouly;1604;838;1029;fbat!10:30|12706;Champex-Lac;1468;598;740;Fbzat!02:30|14363;Trient;1303;883;1041;fbat!08:00|15508;Vallorcine;1262;814;863;fbat!11:15|16634;La Flégère;1893;936;309;dat!02:45|17341;Chamonix;1044;143;983;Fsbzat!04:30"
+</jsonData>
+<jsonData id="race2">
+    "V02;UTMB TDS;2023-08-28;Courmayeur|670;Checrouit;1948;768;49;dt|1434;Lac Combal;1970;564;540;fat!03:30|3603;La Thuile;2190;1161;942;fbat!08:30|4709;Seez;910;6;1285;dbt|5055;Bourg St Maurice;844;27;96;fbat!11:00|6613;Cormet de Roselend;1973;1914;784;fbat!05:15|7417;La Gittaz;1668;382;687;dat!07:30|9344;Beaufort;809;1044;1904;Fsbzat!03:00|9972;Hauteluce;1145;524;188;fbt!05:30|11492;Col du Joly;1991;1329;482;fat!11:15|12404;Les Contamines;1164;29;855;fbat!01:15|13512;Bellevue;1792;1273;645;t!05:30|13961;Les Houches;1021;0;772;fbat!06:30|14747;Chamonix;1031;140;128;Fsbzat!08:00"
+</jsonData>
+<jsonData id="race3">
+    "V02;UTMB CCC;2023-09-01;Courmayeur|1339;Refuge Bertone;2004;1450;680;ft!01:45|2600;Arnouvaz;1794;434;643;fbat!04:30|4040;La Fouly;1599;826;1021;fbat!08:15|5394;Champex-Lac;1469;573;704;Fbzat!11:15|7066;Trient;1305;973;1017;fbat!04:00|8214;Vallorcine;1293;915;927;fbat!07:15|9340;La Flégère;1876;177;347;dat!10:45|10020;Chamonix;1032;6;852;Fsbzat!12:00"
+</jsonData>
+<jsonData id="race4">
+    "V02;UTMB MCC;2023-08-28;Martigny-Combe|776;Col de la Forclaz;1673;1013;3;fbat!12:15|1743;Col de Balme;2159;815;332;ft|2803;Argentière;1277;118;295;fbt!05:45|3910;Chamonix;1016;77;95;Fsbat!03:30"
+</jsonData>
+<jsonData id="race5">
+    "V02;UTMB  OCC ;2023-08-31;Orsières|731;Champex-Lac;1470;614;55;dat|1224;Plan de l'Au;1343;147;278;t!11:30|2358;Trient;1307;146;727;fbat!02:30|3322;Col de Balme;2202;200;133;dbat!06:00|4420;Argentière;1277;63;295;fbt!08:00|4912;La Flégère;1876;627;26;dat!09:45|5591;Chamonix;1031;3;850;Fsbzat!11:15"
+</jsonData>
+<jsonData id="race6">
+    "V02;UTMB (all points);2023-09-01;Chamonix|802;Les Houches;1011;101;140;dbt|2169;Saint-Gervais;813;827;1016;fbat!10:00|3187;Les Contamines;1147;546;210;fbat!12:00|3597;Notre Dame;1215;74;12;t|4015;La Balme;1705;479;0;fat!02:00|4374;Col du Bonhomme;2331;613;0;t|4579;Croix Bonhomme;2444;162;45;t|5075;Les Chapieux;1553;0;883;Fbzat!05:15|6142;Col de la Seigne;2509;1016;65;t|6415;Col Pyramides Cal.;2566;257;200;t|6667;Refuge Elisabetta;2193;0;367;t|6980;Lac Combal;1967;13;234;fat!10:00|7250;Arête du Mt Favre;2423;453;0;t|7703;Checrouit ;1954;0;458;dt|8137;Courmayeur;1192;0;755;Fsbzat!01:15|8625;Refuge Bertone;1967;784;16;dt|9375;Refuge Bonatti;2021;284;236;t|9880;Arnouvaz;1787;120;351;fbat!06:15|10349;Grand Col Ferret;2530;754;12;t|10716;La Peule;2080;0;450;t|11343;La Fouly;1604;71;543;fbat!10:30|12142;Praz de Fort;1154;122;570;t|12706;Champex-Lac;1468;476;168;Fbzat!02:30|13205;Plan de l'Au;1355;81;201;t!03:45|13869;La Giète;1878;708;187;t|14363;Trient;1303;58;630;fbat!08:00|14736;Les Tseppes;1934;635;15;t|15508;Vallorcine;1262;167;849;fbat!11:15|15881;Col des Montets;1465;199;0;t!12:15|16280;La Tête aux Vents;2125;664;0;t|16634;La Flégère;1893;63;302;dat!02:45|17341;Chamonix;1044;131;983;Fsbzat!04:30"
+</jsonData>
+
+
+</jsonDataResources>

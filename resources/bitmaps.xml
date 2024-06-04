@@ -1,0 +1,14 @@
+<resources>
+    <bitmap id="LauncherIcon" filename="images/icon.png" />
+    <bitmap id="water" filename="images/drop.png" />
+    <bitmap id="drink" filename="images/1777639_beverage_bottle_drink_food_packaging_icon.png" />
+    <bitmap id="foods" filename="images/3671795_food_location_icon.png" />
+    <bitmap id="hotDrink" filename="images/4908727_breakfast_coffee_drink_hot_season_icon.png" />
+    <bitmap id="hotFood" filename="images/2427858_bowl_food_food bowl_hot food_hotsoup_icon.png" />
+    <bitmap id="bag" filename="images/8811920_santa_claus_bag_christmas_gift_icon.png" />
+    <bitmap id="aid" filename="images/2701063_aid_mod.png" />
+    <bitmap id="bus" filename="images/809732_bus_public transport_vehicles_icon.png" />
+    <bitmap id="bed" filename="images/8665133_bed_sleep_icon.png" />
+    <bitmap id="timer" filename="images/3671881_timer_icon.png" />
+
+</resources>
