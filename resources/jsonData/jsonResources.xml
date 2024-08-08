@@ -1,23 +1,26 @@
 <jsonDataResources>
 
-<jsonData id="race1">
-    "V02;UTMB;2023-09-01;Chamonix|802;Les Houches;1011;101;140;dbt|2169;Saint-Gervais;813;819;1003;fbat!10:00|3187;Les Contamines;1147;551;222;fbat!12:00|4015;La Balme;1705;558;12;fat!02:00|5075;Les Chapieux;1553;797;934;Fbzat!05:15|6980;Lac Combal;1967;1267;858;fat!10:00|7703;Checrouit ;1954;451;454;dt|8137;Courmayeur;1192;0;766;Fsbzat!01:15|8625;Refuge Bertone;1967;784;22;dt|9880;Arnouvaz;1787;433;598;fbat!06:15|11343;La Fouly;1604;838;1029;fbat!10:30|12706;Champex-Lac;1468;598;740;Fbzat!02:30|14363;Trient;1303;883;1041;fbat!08:00|15508;Vallorcine;1262;814;863;fbat!11:15|16634;La Flégère;1893;936;309;dat!02:45|17341;Chamonix;1044;143;983;Fsbzat!04:30"
-</jsonData>
-<jsonData id="race2">
-    "V02;UTMB TDS;2023-08-28;Courmayeur|670;Checrouit;1948;768;49;dt|1434;Lac Combal;1970;564;540;fat!03:30|3603;La Thuile;2190;1161;942;fbat!08:30|4709;Seez;910;6;1285;dbt|5055;Bourg St Maurice;844;27;96;fbat!11:00|6613;Cormet de Roselend;1973;1914;784;fbat!05:15|7417;La Gittaz;1668;382;687;dat!07:30|9344;Beaufort;809;1044;1904;Fsbzat!03:00|9972;Hauteluce;1145;524;188;fbt!05:30|11492;Col du Joly;1991;1329;482;fat!11:15|12404;Les Contamines;1164;29;855;fbat!01:15|13512;Bellevue;1792;1273;645;t!05:30|13961;Les Houches;1021;0;772;fbat!06:30|14747;Chamonix;1031;140;128;Fsbzat!08:00"
-</jsonData>
-<jsonData id="race3">
-    "V02;UTMB CCC;2023-09-01;Courmayeur|1339;Refuge Bertone;2004;1450;680;ft!01:45|2600;Arnouvaz;1794;434;643;fbat!04:30|4040;La Fouly;1599;826;1021;fbat!08:15|5394;Champex-Lac;1469;573;704;Fbzat!11:15|7066;Trient;1305;973;1017;fbat!04:00|8214;Vallorcine;1293;915;927;fbat!07:15|9340;La Flégère;1876;177;347;dat!10:45|10020;Chamonix;1032;6;852;Fsbzat!12:00"
-</jsonData>
-<jsonData id="race4">
-    "V02;UTMB MCC;2023-08-28;Martigny-Combe|776;Col de la Forclaz;1673;1013;3;fbat!12:15|1743;Col de Balme;2159;815;332;ft|2803;Argentière;1277;118;295;fbt!05:45|3910;Chamonix;1016;77;95;Fsbat!03:30"
-</jsonData>
-<jsonData id="race5">
-    "V02;UTMB  OCC ;2023-08-31;Orsières|731;Champex-Lac;1470;614;55;dat|1224;Plan de l'Au;1343;147;278;t!11:30|2358;Trient;1307;146;727;fbat!02:30|3322;Col de Balme;2202;200;133;dbat!06:00|4420;Argentière;1277;63;295;fbt!08:00|4912;La Flégère;1876;627;26;dat!09:45|5591;Chamonix;1031;3;850;Fsbzat!11:15"
-</jsonData>
-<jsonData id="race6">
-    "V02;UTMB (all points);2023-09-01;Chamonix|802;Les Houches;1011;101;140;dbt|2169;Saint-Gervais;813;827;1016;fbat!10:00|3187;Les Contamines;1147;546;210;fbat!12:00|3597;Notre Dame;1215;74;12;t|4015;La Balme;1705;479;0;fat!02:00|4374;Col du Bonhomme;2331;613;0;t|4579;Croix Bonhomme;2444;162;45;t|5075;Les Chapieux;1553;0;883;Fbzat!05:15|6142;Col de la Seigne;2509;1016;65;t|6415;Col Pyramides Cal.;2566;257;200;t|6667;Refuge Elisabetta;2193;0;367;t|6980;Lac Combal;1967;13;234;fat!10:00|7250;Arête du Mt Favre;2423;453;0;t|7703;Checrouit ;1954;0;458;dt|8137;Courmayeur;1192;0;755;Fsbzat!01:15|8625;Refuge Bertone;1967;784;16;dt|9375;Refuge Bonatti;2021;284;236;t|9880;Arnouvaz;1787;120;351;fbat!06:15|10349;Grand Col Ferret;2530;754;12;t|10716;La Peule;2080;0;450;t|11343;La Fouly;1604;71;543;fbat!10:30|12142;Praz de Fort;1154;122;570;t|12706;Champex-Lac;1468;476;168;Fbzat!02:30|13205;Plan de l'Au;1355;81;201;t!03:45|13869;La Giète;1878;708;187;t|14363;Trient;1303;58;630;fbat!08:00|14736;Les Tseppes;1934;635;15;t|15508;Vallorcine;1262;167;849;fbat!11:15|15881;Col des Montets;1465;199;0;t!12:15|16280;La Tête aux Vents;2125;664;0;t|16634;La Flégère;1893;63;302;dat!02:45|17341;Chamonix;1044;131;983;Fsbzat!04:30"
-</jsonData>
+  <jsonData id="race1">
+      "V02;Tor des Geants (1/7);Courmayeur;Valgrisenche|1445;Col ARP;2567;1465;127;|2065;Baite Youlaz;2036;2;534;f|3055;La Thuile;1468;134;702;Fat!15:30|4484;Rif.Deffeyes;2489;1227;205;f|4934;Col Passo Alto;2856;424;58;|5275;Bivacco Zappelli;2273;3;585;fa|5786;Col de la Crosatie;2822;711;162;a|6048;Lac Du Fond;2441;20;402;|6884;Planaval;1561;61;941;f|7813;Valgrisenche;1692;291;161;Fsbzat!5:00"
+  </jsonData>
+  <jsonData id="race2">
+      "V02;Tor des Geants (2/7);Valgrisenche;Cogne|1019;Rif.Chalet de L'epée;2369;836;159;f|1516;Col Fenêtre;2843;484;10;|2303;Rhemes-Notre-Dame;1732;90;1201;fa|3175;Col Entrelor;3004;1313;41;a|4781;Eaux Rousses;1678;112;1437;fat!19:30|6767;Col Loson;3294;1895;279;a|7501;Rif.Vittorio Sella;2584;57;767;f|8423;Valnontey;1669;93;1008;|8924;Cogne;1536;63;196;Fsbzat!04:00 RaceEditor.vue:353"
+  </jsonData>
+  <jsonData id="race3">
+      "V02;Tor des Geants (3/7);Cogne;Donnas|591;Lillaz;1636;251;151;|930;Goilles Dessous;1835;268;69;f|2335;Rif.Sogno;2530;875;180;|2628;Fin. Champorcher;2826;318;22;|2956;Rif.Misérin;2582;19;263;|3533;Rif.Dondena;2192;7;397;f|4418;Chardonney;1454;90;827;fa|5691;Pont Boset;781;243;916;f|6888;Bard;377;588;992;|7366;Donnas;322;109;164;Fsbzat!00:00"
+  </jsonData>
+  <jsonData id="race4">
+      "V02;Tor des Geants (4/7);Donnas;Gressoney|932;Perloz;648;646;319;f|1070;Tour d'Hereraz;559;110;200;|2108;La Sassa;1439;1129;249;f|2823;Rif.Coda;2252;879;67;fa|3740;Alpe Vargno ;1868;345;728;|4188;Rif.L. Barma;2049;353;173;ft!13:00|4863;Col Marmontana;2347;521;223;|5040;Lago Chiaro;2090;16;273;f|5311;Crenna Ley;2312;368;146;|5684;Colle Della Vecchia;2195;197;314;fa|6584;Niel;1557;374;1013;fat!19:30|7133;Colle Lazoney;2394;860;22;|7583;Bleckene;2060;8;342;f|8727;Gressoney;1375;126;812;Fsbzat!23:00"
+   </jsonData>
+  <jsonData id="race5">
+      "V02;Tor des Geants (5/7);Gressoney;Valtournenche|818;Alpenzu;1776;532;132;f|1532;Col Pinter;2781;1035;30;|2131;Cuneaz;2051;78;808;|2733;Champoluc;1575;45;521;fat!13:00|3180;Saint-Jaques;1693;156;39;|3988;Rif.Grand Tournalin;2551;892;34;f|4236;Col de Nannaz;2775;266;43;|4456;Col Des Fontaines;2694;55;136;|4928;Cheneil;2110;7;591;|5411;Valtournenche;1504;26;632;Fsbzat!19:00 RaceEditor.vue:353"
+  </jsonData>
+  <jsonData id="race6">
+      "V02;Tor des Geants (6/7);Valtournenche;Ollomond|785;Rif.Barmasse;2172;836;168;f|1426;Fenetre D'ersaz;2289;327;210;|1592;Bivacco Vareton;2271;84;102;f|2364;Fenetre Du Tsan;2738;617;150;|2952;Rif.Lo Magià;1995;16;758;f|3507;Rif.Cuney;2655;683;24;fa|3890;Col de Chaleby;2684;179;150;|4245;Biv.Clermont;2704;211;190;f|4308;Col de Vessonaz;2787;88;5;|5823;Oyace;1350;167;1604;fat!13:30|6470;Bruson Arp;2188;895;57;f|6731;Col Brison;2519;371;40;|7123;Berrio Damon;1936;69;652;f|7731;Ollomont;1384;83;636;Fsbzat!17:00"
+  </jsonData>
+  <jsonData id="race7">
+      "V02;Tor des Geants (7/7);Ollomont;Courmayeur|747;Rif.Champillon;2422;1061;23;f|925;Col de Champillon;2711;291;2;|1802;Ponteille;1880;127;958;f|3146;Saint Rhemy;1618;293;555;|3431;Bosses;1525;28;121;fa|4664;Merdeux (Barrier);2272;877;129;t!08:00|4897;Rif.Frassati;2547;287;12;f|5230;Col Malatrà;2920;397;24;a|5837;Entre Deux Sauts;2529;194;585;fa|6413;Arminaz;1992;11;548;|7250;Mont de la Saxe;2037;299;254;f|7992;Cournayeur;1230;41;848;fat!16:00"
+  </jsonData>
 
 
 </jsonDataResources>

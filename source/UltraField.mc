@@ -216,6 +216,9 @@ class UltraField{
 			case 6:
     			jsonRace =WatchUi.loadResource(Rez.JsonData.race6); 
     			break;
+			case 7:
+    			jsonRace =WatchUi.loadResource(Rez.JsonData.race7); 
+    			break;
 	   	}
 		splitter=new Splitter(jsonRace);
 		msg=splitter.getInfo();
