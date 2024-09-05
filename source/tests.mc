@@ -33,12 +33,12 @@ using Toybox.System;
 //   return s1.equals("1234567") && s2.equals("12345") && s3.equals("123456789") ;
 // }
 
-//(:test)
+(:test)
 function parseTDS(logger)  {
   logger.debug("mem:"+ System.getSystemStats().freeMemory);
   var c=new Check(logger);
   logger.debug("Starting");
-  var s="V01;UTMB TDS;2022-08-24;123|0;Courmayeur;1220;00;|680;Checrouit;1956;76749;L|1530;Combal;1970;588560;F|3560;P.S.Bernard;2188;1149937;F|4740;Seez;891;191299;L|5030;B.S.Maurice;813;991;F|5600;F.Platte;1992;11553;|6659;Roselend;1967;779783;F|7459;Gittaz;1665;382691;L|9170;Beaufort;741;9951918;B|9840;Hauteluce;1190;538132;F|11380;Col Joly;1989;1353512;F|12280;Contamines;1170;34856;F|13390;Bellevue;1801;1270643;|13860;Houches;1010;0772;F|14630;Chamonix;1035;138127;B";
+  var s="V02;UTMB TDS;2022-08-24;123|0;Courmayeur;1220;00;|680;Checrouit;1956;76749;L|1530;Combal;1970;588560;F|3560;P.S.Bernard;2188;1149937;F|4740;Seez;891;191299;L|5030;B.S.Maurice;813;991;F|5600;F.Platte;1992;11553;|6659;Roselend;1967;779783;F|7459;Gittaz;1665;382691;L|9170;Beaufort;741;9951918;B|9840;Hauteluce;1190;538132;F|11380;Col Joly;1989;1353512;F|12280;Contamines;1170;34856;F|13390;Bellevue;1801;1270643;|13860;Houches;1010;0772;F|14630;Chamonix;1035;138127;B";
   var sm=new Splitter(s);
   var info=sm.getInfo();
   c.assert(info.name, info.name.equals("UTMB TDS"));
@@ -58,7 +58,7 @@ function buildSplit(logger)  {
   var c=new Check(logger);
 
   var rb=new RaceBuilder();
-  rb.init("V01","RACE NAME","20230307","ua");
+  rb.init("V02","RACE NAME","20230307","ua");
   rb.add(344,"MARTIN",1001,900,50,"w");
   rb.add(401,"PENNELLO",1060,40,5,"wf");
   rb.add(1344,"TURCHINO",532,150,550,"wf!1200");
