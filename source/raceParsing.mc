@@ -23,6 +23,7 @@ class RaceBuilder{
 class Splitter {
 	var s ;
 	var index=0;
+	var totDp=0, totDm=0;
 	public function initialize(initS){
       s=initS;
     }
@@ -56,6 +57,22 @@ class Splitter {
 	}
 
 	public function getCP(){
+		var cp=_getCP();
+		if (cp==null) {return null;} 
+		if (cp.flags.length()>0 || Application.Properties.getValue("includeWP")) {
+			cp.dPlus+=totDp;
+			cp.dMinus+=totDm;
+			totDp=0;
+			totDm=0;
+			return cp;
+		}
+		totDp+=cp.dPlus;
+		totDm+=cp.dMinus;
+		return getCP();
+	}
+
+
+	public function _getCP(){
 		if(s.length()==0){
 			return null;
 		}
@@ -77,12 +94,12 @@ class Splitter {
 		cp.ele=s1.substring(0, idx);
 		s1=s1.substring(idx+1, s1.length());
 		idx=s1.find(";");
-		cp.dPlus=s1.substring(0, idx);
+		cp.dPlus=s1.substring(0, idx).toNumber();
 		s1=s1.substring(idx+1, s1.length());
 		idx=s1.find(";");
 		cp.flags="";
 		if(idx==null) {return cp;}
-		cp.dMinus=s1.substring(0, idx);
+		cp.dMinus=s1.substring(0, idx).toNumber();
 		if(idx!=null){
 			cp.flags=s1.substring(idx+1, s1.length());
 			var pBar=cp.flags.find("!");

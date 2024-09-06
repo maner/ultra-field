@@ -136,12 +136,12 @@ class UltraFieldView extends WatchUi.DataField{
 		/**checkPoint Name */
 		dc.drawText(5, sizeCache.height50, fontText, cp.label, Graphics.TEXT_JUSTIFY_LEFT |  Graphics.TEXT_JUSTIFY_VCENTER);
 		//*D+, ele, D-*/
-		if (cp.dPlus.length()>0){
-		  dc.drawText(sizeCache.width50-sizeCache.w0, sizeCache.h4, Graphics.FONT_SYSTEM_TINY , '+'+cp.dPlus, Graphics.TEXT_JUSTIFY_RIGHT |  Graphics.TEXT_JUSTIFY_VCENTER );
+		if (cp.dPlus>0){
+		  dc.drawText(sizeCache.width50-sizeCache.w0, sizeCache.h4+5	, Graphics.FONT_SYSTEM_TINY , "+"+cp.dPlus, Graphics.TEXT_JUSTIFY_RIGHT |  Graphics.TEXT_JUSTIFY_VCENTER );
 		}
 		dc.drawText(sizeCache.width50, sizeCache.h4, Graphics.FONT_LARGE , cp.ele+"m", Graphics.TEXT_JUSTIFY_CENTER |  Graphics.TEXT_JUSTIFY_VCENTER );
-		if (cp.dMinus.length()>0){
-			dc.drawText(sizeCache.width50+sizeCache.w0, sizeCache.h4, Graphics.FONT_SYSTEM_TINY , '-'+cp.dMinus, Graphics.TEXT_JUSTIFY_LEFT |  Graphics.TEXT_JUSTIFY_VCENTER );
+		if (cp.dMinus>0){
+			dc.drawText(sizeCache.width50+sizeCache.w0, sizeCache.h4+5, Graphics.FONT_SYSTEM_TINY , -cp.dMinus, Graphics.TEXT_JUSTIFY_LEFT |  Graphics.TEXT_JUSTIFY_VCENTER );
 		}
 
     	//drawText(dc,sizeCache.width50, sizeCache.height50+30, fontText, cp.info, true); //ex info

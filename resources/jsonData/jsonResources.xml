@@ -1,5 +1,6 @@
 <jsonDataResources>
 
+
   <jsonData id="race1">
       "V02;Tor des Geants (1/7);Courmayeur;Valgrisenche|1445;Col ARP;2567;1465;127;|2065;Baite Youlaz;2036;2;534;f|3055;La Thuile;1468;134;702;Fat!15:30|4484;Rif.Deffeyes;2489;1227;205;f|4934;Col Passo Alto;2856;424;58;|5275;Bivacco Zappelli;2273;3;585;fa|5786;Col de la Crosatie;2822;711;162;a|6048;Lac Du Fond;2441;20;402;|6884;Planaval;1561;61;941;f|7813;Valgrisenche;1692;291;161;Fsbzat!5:00"
   </jsonData>
@@ -21,6 +22,5 @@
   <jsonData id="race7">
       "V02;Tor des Geants (7/7);Ollomont;Courmayeur|747;Rif.Champillon;2422;1061;23;f|925;Col de Champillon;2711;291;2;|1802;Ponteille;1880;127;958;f|3146;Saint Rhemy;1618;293;555;|3431;Bosses;1525;28;121;fa|4664;Merdeux (Barrier);2272;877;129;t!08:00|4897;Rif.Frassati;2547;287;12;f|5230;Col Malatrà;2920;397;24;a|5837;Entre Deux Sauts;2529;194;585;fa|6413;Arminaz;1992;11;548;|7250;Mont de la Saxe;2037;299;254;f|7992;Cournayeur;1230;41;848;fat!16:00"
   </jsonData>
-
 
 </jsonDataResources>
