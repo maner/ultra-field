@@ -94,12 +94,12 @@ class Splitter {
 		cp.ele=s1.substring(0, idx);
 		s1=s1.substring(idx+1, s1.length());
 		idx=s1.find(";");
-		cp.dPlus=s1.substring(0, idx).toNumber();
+		cp.dPlus=valueOr0(s1.substring(0, idx).toNumber());
 		s1=s1.substring(idx+1, s1.length());
 		idx=s1.find(";");
 		cp.flags="";
 		if(idx==null) {return cp;}
-		cp.dMinus=s1.substring(0, idx).toNumber();
+		cp.dMinus=valueOr0(s1.substring(0, idx).toNumber());
 		if(idx!=null){
 			cp.flags=s1.substring(idx+1, s1.length());
 			var pBar=cp.flags.find("!");
@@ -111,6 +111,9 @@ class Splitter {
 		}
 		index=index+1;
 		return cp;
+	}
+	public function valueOr0(v){
+		return v!=null ? v : 0;
 	}
 }
 
